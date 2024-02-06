@@ -2,8 +2,11 @@ navbar_entries:
   - title: About
     url: about
 
-  - title: Archive
+  - title: Books Arena
     url: blog
+
+  - title: Holy Grounds
+    url: holy
 
   - title: Website
     url: https://ah11r.github.io/
@@ -12,6 +15,11 @@ project_entries:
   - title: Never Split The Difference
     url: never-spit-the-difference
     desc: This is my review and key takeaways from this awesome book - Never Split The Difference by Chris Voss
+
+bible_entries:
+  - title: 1st Samuel
+    url: samuel
+    desc: This is a Bible Study based on 1st Samuel book in the Bible
 
 old_project_entries:
   - title: Humangous
