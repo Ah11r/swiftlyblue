@@ -85,6 +85,7 @@ img {
       --bg: #1f242A;
       --bg-secondary: #323945;
       --text: #e1e8ee;
+      --dashed: #e7f707;
       --text-secondary: #9CA3AF;
       --code-text: #91A7FF;
       --share-text: #C4C4C4;
@@ -154,7 +155,7 @@ html.transition *:after {
   outline: none;
 }
 .dashed {
-  border-top: 1px var(--text) dashed;
+  border-top: 1px var(--dashed) dashed;
   margin: 0.5em 0;
 }
 mark {
