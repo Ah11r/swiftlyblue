@@ -1,17 +1,17 @@
 navbar_entries:
-  - title: about
+  - title: About
     url: about
 
-  - title: blog
+  - title: Archive
     url: blog
 
-  - title: website
+  - title: Website
     url: https://ah11r.github.io/
 
 project_entries:
-  - title: Project 1
-    url: overview-post
-    desc: This is an example project, configured in _data/home.yml
+  - title: Never Split The Difference
+    url: never-spit-the-difference
+    desc: This is my review and key takeaways from this awesome book - Never Split The Difference by Chris Voss
 
 old_project_entries:
   - title: Humangous
