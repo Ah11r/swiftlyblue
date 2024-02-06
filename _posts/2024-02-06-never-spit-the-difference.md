@@ -1,5 +1,5 @@
 ---
-title: Never Split The Defference by Chris Voss
+title: Never Split The Difference by Chris Voss
 layout: post
 author: Sir Hiira
 tag: [negotiation_skills]
