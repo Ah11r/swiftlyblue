@@ -22,7 +22,7 @@ bible_entries:
     desc: This is a Bible Study based on 1st Samuel book in the Bible
 
   - title: The Gospel of Matthew
-    url: post_list
+    url: blog
     desc: Bible Study based on the gospel of Matthew
 
 old_project_entries:
