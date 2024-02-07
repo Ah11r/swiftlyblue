@@ -28,7 +28,7 @@ theme_config:
   show_projects: true # show projects as cards, add in _data/home.yml
   show_blog: false # show blog posts added in _posts
   show_old_projects: false # show old projects as cards, add in _data/home.yml
-  show_bible_entries: true
+  show_bible_study: true
   show_misc_list: false # show generic vertical list for misc details, add _data/home.yml
   show_reading_time: true # show number of words and reading time in the blog posts
   show_tags: true # show tags in a blog posts
@@ -38,7 +38,9 @@ theme_config:
     title_misc_list: Details
     title_blog: Archives # renamed from title_blog: blog posts
     title_old_projects: Unrelated Projects
-    title_bible_entries: Holy Grounds
+  
+  holy:
+    title_bible_study: Holy Grounds
 
 soopr:
   publish_token: "pt_75f7f4f77f56e2b5181c96012f41da69" # sign up at https://www.soopr.co to get your publish token and personalize share and reaction options
