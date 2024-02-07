@@ -21,6 +21,11 @@ layout: default
   {% include card_list.html collection=site.data.home.bible_entries %}
 {% endif %}
 
+{% if site.theme_config.show_chapter_list == true %}
+  <h2>{{ site.theme_config.holy.title_chapter_list }}</h2>
+  {% include vertical_list.html collection=site.data.home.chapter_entries %}
+{% endif %}
+
 {% if site.theme_config.show_footer == true %}
   <footer>
     <div class="dashed"></div>

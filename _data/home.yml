@@ -36,6 +36,13 @@ footer_entries:
   - title: feed
     url: feed.xml
 
+chapter_entries:
+  - title: Chapter 1
+    url: true
+    
+  - title: Chapter 2
+    url: true
+
 misc_entries:
   - title: this is an example vertical list
     url: false
