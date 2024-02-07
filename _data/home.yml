@@ -18,10 +18,7 @@ project_entries:
 
 bible_entries:
   - title: 1st Samuel
-    url: false
-    entries:
-      - title: Chapter 1
-        url: samuel
+    url: bpost_list
     desc: This is a Bible Study based on 1st Samuel book in the Bible
 
   - title: The Gospel of Matthew
