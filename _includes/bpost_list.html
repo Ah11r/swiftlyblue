@@ -1,6 +1,6 @@
 <ul>
     {% for post in site.posts %}
-      {% if 'bible' in post.tags %}
+      {% if post.featured == true %}
         <li class="post-list-item">
           <span class="home-date">
             {{ post.date | date: site.theme_config.date_format }}»
