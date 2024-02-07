@@ -61,6 +61,10 @@ misc_entries:
     post_list: true
     url: false
 
+  - title: Bible Study
+    bpost_list: true
+    url: false
+
   - title: moonwalk on the Internet
     url: false
     entries:
