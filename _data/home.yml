@@ -21,6 +21,10 @@ bible_entries:
     url: samuel
     desc: This is a Bible Study based on 1st Samuel book in the Bible
 
+  - title: The Gospel of Matthew
+    url: matthew
+    desc: Bible Study based on the gospel of Matthew
+
 old_project_entries:
   - title: Humangous
     url: https://www.humangous.co
@@ -39,7 +43,7 @@ footer_entries:
 chapter_entries:
   - title: Chapter 1
     url: true
-    
+
   - title: Chapter 2
     url: true
 

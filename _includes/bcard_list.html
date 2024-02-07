@@ -29,6 +29,7 @@
   </ul>
 -->
 
+<!--
 <ul class="horizontal-list">
     {% for item in include.collection %}
       <li class="card">
@@ -66,5 +67,54 @@
       </li>
     {% endfor %}
   </ul>
+-->
   
+<ul class="horizontal-list">
+    {% for item in include.collection %}
+  
+      <li class="card">
+        <a href="{{ item.url }}">
+          <span class="header">
+            {{ item.title }}
+  
+            {% if item.highlight %}
+              <mark>{{ item.highlight }}</mark>
+            {% endif %}
+  
+          </span>
+          <hr />
+  
+          {% if item.desc != false %}
+          <p class="body">
+            {{ item.desc }}
+          </p>
+          {% endif %}
+        </a>
+  
+        <!-- Vertical list implementation begins here -->
+        <ul>
+          {% for item in include.collection %}
+            <li>
+              {% if item.url != false %}
+                <a href="{{ item.url }}">{{ item.title }}</a>
+              {% else %}
+                {{ item.title }}
+              {% endif %}
+  
+              {% if item.post_list == true %}
+                {% include post_list.html %}
+              {% endif %}
+  
+              {% if item.entries %}
+                {% include vertical_list.html collection=item.entries %}
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+        <!-- Vertical list implementation ends here -->
+  
+      </li>
+  
+    {% endfor %}
+  </ul>
   
