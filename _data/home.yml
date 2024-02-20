@@ -19,6 +19,10 @@ project_entries:
     url: never-spit-the-difference
     desc: This is my review and key takeaways from this awesome book - Never Split The Difference by Chris Voss
 
+  - title: What the Best College Teachers do
+    url: what-teachers-do
+    desc: This is a summary that outlines the successful methodologies and conducts of the best teachers
+
 bible_entries:
   - title: 1st Samuel
     url: samuel
